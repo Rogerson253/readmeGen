@@ -18,11 +18,23 @@ inquirer
       message: "Describe your project.",
       name: "description"
     },
+    {
+      type: "checkbox",
+      message: "What type of license?",
+      name: "license",
+      choices: [
+        "Eclipse", 
+        "MIT", 
+        "Apache", 
+        "Mozilla"
+      ]
+    },
   ])
   .then(function(response) {
     const username = response.username;
     const projectName = response.project;
     const description = response.description;
+    const license = response.license;
 
     const readMe = `# ${projectName}
   
@@ -33,7 +45,7 @@ inquirer
   * ${description}.
   
   ## Technologies
-  * Node.js, Axios, Inquirery
+  * Node.js, Axios, Inquirer
   
   ## Contact
   
@@ -42,7 +54,7 @@ inquirer
   * LinkedIn: https://www.linkedin.com/in/rogerson-jean-charles253/
   
   ## License
-  MIT`
+  ${license}`
 
    
    

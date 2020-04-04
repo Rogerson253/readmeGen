@@ -9,7 +9,7 @@
 * This is an app that creates README's so that developers can spend more time on their code.
 
 ## Technologies
-* Node.js, Axios, Inquirery
+* Node.js, Axios, Inquirer
 
 ## Contact
 

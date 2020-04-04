@@ -1,10 +1,10 @@
-# test
+# testing
   
   ## Contributors
-  @r
+  @roger
   
   ## Description
-  * Having fun.
+  * having all kinds of fun.
   
   ## Technologies
   * Node.js, Axios, Inquirery

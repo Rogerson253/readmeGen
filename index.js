@@ -37,15 +37,22 @@ inquirer
     const license = response.license;
 
     const readMe = `# ${projectName}
-  
-  ## Contributors
-  @${username}
-  
   ## Description
-  * ${description}.
+  * ${description}
+
+  ## Table of Contents
+
+  ## Installation
+
+  ## Usage
+
+  ## Tests
   
   ## Technologies
   * Node.js, Axios, Inquirer
+
+  ## Contributors
+  @${username}
   
   ## Contact
   

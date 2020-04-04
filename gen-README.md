@@ -1,13 +1,20 @@
-# testing
-  
-  ## Contributors
-  @roger
-  
+# test
   ## Description
-  * having all kinds of fun.
+  * having fun
+
+  ## Table of Contents
+
+  ## Installation
+
+  ## Usage
+
+  ## Tests
   
   ## Technologies
-  * Node.js, Axios, Inquirery
+  * Node.js, Axios, Inquirer
+
+  ## Contributors
+  @r
   
   ## Contact
   
@@ -16,4 +23,4 @@
   * LinkedIn: https://www.linkedin.com/in/rogerson-jean-charles253/
   
   ## License
-  MIT
+  Eclipse

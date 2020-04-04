@@ -5,16 +5,20 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "What is your name?",
-      name: "name"
+      message: "What is your github username?",
+      name: "username"
     },
   ])
   .then(function(response) {
-    
+    const username = response.username;
+
+    const readMe = `
+    ## Contributors
+    @${username}`
 
    
    
-    fs.writeFile("RMLN.html", ourFile, function(err) {
+    fs.writeFile("gen-README.md", readMe, function(err) {
         if (err) {
             return console.log(err);
           }

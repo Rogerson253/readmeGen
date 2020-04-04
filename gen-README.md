@@ -1,3 +1,2 @@
-
-    ## Contributors
-    @rogerson253
+## Contributors
+  @r

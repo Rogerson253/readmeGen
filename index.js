@@ -12,9 +12,8 @@ inquirer
   .then(function(response) {
     const username = response.username;
 
-    const readMe = `
-    ## Contributors
-    @${username}`
+    const readMe = `## Contributors
+  @${username}`
 
    
    

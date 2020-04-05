@@ -1,8 +1,6 @@
 // require("dotenv").config();
-const axios = require("axios");
 const inquirer = require("inquirer");
 const fs = require("fs");
-
 
 inquirer
   .prompt([
@@ -79,35 +77,7 @@ inquirer
     })
   });
 
-  const api = {
-    getUser(username) {
-      axios
-      .get(`https://api.github.com/users/${username}`, 
-      {
-          headers: {"Authorization": "token 2fb1a70a518a5da8dec093fd6ac9fda28fc16276"}
-      }) 
-      .then(response => {
-          const avatar = response.data.avatar_url;
-         
 
-          const appendReadme = `<img alt="profilePic" src = ${avatar} height="100px" width="100px">`
-
-
-          fs.appendFile("gen-README.md", appendReadme, function(err) {
-
-            if (err) {
-              console.log(err);
-            }
-            else {
-              console.log("Commit logged!");
-            }
-          
-          });
-      })
-      .catch(error => console.log(error))
-    }
-  };
-  api.getUser("Rogerson253");
 
   
   

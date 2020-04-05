@@ -1,6 +1,6 @@
 # test
   ## Description
-  * having fun
+  * test
 
   ## Table of Contents
 
@@ -14,7 +14,7 @@
   * Node.js, Axios, Inquirer
 
   ## Contributors
-  @r
+  @rogerson253
   
   ## Contact
   

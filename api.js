@@ -16,3 +16,4 @@ const api = {
 };
 
 api.getUser("Rogerson253");
+

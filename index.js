@@ -50,18 +50,9 @@ inquirer
   ## Usage
 
   ## Tests
-  
-  ## Technologies
-  * Node.js, Axios, Inquirer
 
   ## Contributors
   @${username}
-  
-  ## Contact
-  
-  #### Rogerson Jean-Charles (@rogerson253)
-  * Email: [rogerson253@gmail.com](rogerson253@gmail.com)
-  * LinkedIn: https://www.linkedin.com/in/rogerson-jean-charles253/
   
   ## License
   ${license}`

@@ -80,7 +80,7 @@ inquirer
     
           const readMeTwo = `![profilepic](${avatar})`
     
-          fs.appendFile("gen-README.md", readMeTwo + "\n", function(err) {
+          fs.appendFile("gen-README.md", readMeTwo + '\n', function(err) {
             if (err) {
                 return console.log(err);
               }

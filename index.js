@@ -78,9 +78,9 @@ inquirer
         .then(response => {
           const avatar = response.data.avatar_url
     
-          const readMeTwo = `![profilepic](${avatar})`
+          const readMeTwo = `<img align="left" src="${avatar}" height="100" width="100">`
     
-          fs.appendFile("gen-README.md", readMeTwo + '\n', function(err) {
+          fs.appendFile("gen-README.md", '\n' + readMeTwo, function(err) {
             if (err) {
                 return console.log(err);
               }

@@ -40,6 +40,9 @@ inquirer
 
 
     const readMe = `# ${projectName}
+  <img src="https://img.shields.io/badge/License-MIT-blue">
+  <hr>
+  
   ## Description
   * ${description}
 

@@ -55,7 +55,10 @@ inquirer
   @${username}
   
   ## License
-  ${license}`
+  ${license}
+  <hr>
+  
+  `
 
    
    

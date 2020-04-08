@@ -21,6 +21,21 @@ inquirer
       name: "description"
     },
     {
+      type: "input",
+      message: "How does anyone install the necessary packages?",
+      name: "install"
+    },
+    {
+      type: "input",
+      message: "How does anyone use the application?",
+      name: "usage"
+    },
+    {
+      type: "input",
+      message: "How does anyone run tests?",
+      name: "test"
+    },
+    {
       type: "checkbox",
       message: "What type of license?",
       name: "license",
@@ -37,6 +52,9 @@ inquirer
     const projectName = response.project;
     const description = response.description;
     const license = response.license;
+    const test = response.test;
+    const install = response.install;
+    const usage = response.usage;
 
 
     const readMe = `# ${projectName}
@@ -54,10 +72,16 @@ inquirer
   * <a href="#license">License</a>
 
   <h2 id="installation">Installation</h2>
+  <p>To install the necessary packages, run the following code in your terminal:</p>
+  ${install}
+  
 
   <h2 id="usage">Usage</h2>
+  ${usage}
 
   <h2 id="tests">Tests</h2>
+  <p>To run tests, run the following code:</p>
+  ${test}
 
   <h2 id="contributors">Contributors</h2>
   @${username}
@@ -89,7 +113,8 @@ inquirer
         .then(response => {
           const avatar = response.data.avatar_url
     
-          const readMeTwo = `<img align="left" src="${avatar}" height="100" width="100">`
+          const readMeTwo = `## Contact
+  <img align="left" src="${avatar}" height="100" width="100">`
     
           fs.appendFile("gen-README.md", '\n' + readMeTwo, function(err) {
             if (err) {

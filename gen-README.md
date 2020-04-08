@@ -13,15 +13,14 @@
   * <a href="#license">License</a>
 
   <h2 id="installation">Installation</h2>
-  <p>To install the necessary packages, run the following code in your terminal:</p>
-  npm i
-  
+  To install the necessary packages, run the following code in your terminal:
+        npm i
 
   <h2 id="usage">Usage</h2>
   use it
 
   <h2 id="tests">Tests</h2>
-  <p>To run tests, run the following code:</p>
+  To run tests, run the following code:
   npm run test
 
   <h2 id="contributors">Contributors</h2>

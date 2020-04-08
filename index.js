@@ -72,15 +72,14 @@ inquirer
   * <a href="#license">License</a>
 
   <h2 id="installation">Installation</h2>
-  <p>To install the necessary packages, run the following code in your terminal:</p>
+  To install the necessary packages, run the following code in your terminal:
   ${install}
-  
 
   <h2 id="usage">Usage</h2>
   ${usage}
 
   <h2 id="tests">Tests</h2>
-  <p>To run tests, run the following code:</p>
+  To run tests, run the following code:
   ${test}
 
   <h2 id="contributors">Contributors</h2>

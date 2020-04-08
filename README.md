@@ -1,15 +1,21 @@
 # readmeGen
 
-## Live Link
-
-## Contributors
-@rogerson253
-
 ## Description
 * This is an app that creates README's so that developers can spend more time on their code.
 
+## Installation
+* To install the required packages for this application, run the following code: 
+`npm install`
+
+## Usage
+* To use this application, type `node index` in the terminal, than answer the following questions to generate a new README.
+
+
 ## Technologies
 * Node.js, Axios, Inquirer
+
+## Contributors
+@rogerson253
 
 ## Contact
 

@@ -14,7 +14,7 @@
 
   <h2 id="installation">Installation</h2>
   To install the necessary packages, run the following code in your terminal:
-        npm i
+  npm i
 
   <h2 id="usage">Usage</h2>
   use it
@@ -27,7 +27,7 @@
   @rogerson253
   
   <h2 id="license">License</h2>
-  Eclipse
+  MIT
   <hr>
   
   

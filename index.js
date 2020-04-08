@@ -47,17 +47,22 @@ inquirer
   * ${description}
 
   ## Table of Contents
+  <a href="#installation">Installation</a>
+  <a href="#usage">Usage</a>
+  <a href="#tests">Tests</a>
+  <a href="#contributors">Contributors</a>
+  <a href="#license">License</a>
 
-  ## Installation
+  <h2 id="installation">Installation</h2>
 
-  ## Usage
+  <h2 id="usage">Usage</h2>
 
-  ## Tests
+  <h2 id="tests">Tests</h2>
 
-  ## Contributors
+  <h2 id="contributors">Contributors</h2>
   @${username}
   
-  ## License
+  <h2 id="license">License</h2>
   ${license}
   <hr>
   

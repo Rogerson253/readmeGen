@@ -6,11 +6,11 @@
   * test
 
   ## Table of Contents
-  <a href="#installation">Installation</a>
-  <a href="#usage">Usage</a>
-  <a href="#tests">Tests</a>
-  <a href="#contributors">Contributors</a>
-  <a href="#license">License</a>
+  * <a href="#installation">Installation</a>
+  * <a href="#usage">Usage</a>
+  * <a href="#tests">Tests</a>
+  * <a href="#contributors">Contributors</a>
+  * <a href="#license">License</a>
 
   <h2 id="installation">Installation</h2>
 

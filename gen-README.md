@@ -14,22 +14,24 @@
 
   <h2 id="installation">Installation</h2>
   To install the necessary packages, run the following code in your terminal:
-  npm i
+  test
 
   <h2 id="usage">Usage</h2>
-  use it
+  test
 
   <h2 id="tests">Tests</h2>
   To run tests, run the following code:
-  npm run test
+  test
 
   <h2 id="contributors">Contributors</h2>
   @rogerson253
   
   <h2 id="license">License</h2>
-  MIT
+  Eclipse
   <hr>
   
   
 ## Contact
   <img align="left" src="https://avatars2.githubusercontent.com/u/57200095?v=4" height="100" width="100">
+  
+ Questions? Comments? Concerns? Reach out at Rogerson253@gmail.com.

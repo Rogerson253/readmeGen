@@ -1,4 +1,4 @@
-// require("dotenv").config();
+require("dotenv").config();
 const axios = require("axios");
 const inquirer = require("inquirer");
 const fs = require("fs");
@@ -105,15 +105,17 @@ inquirer
     const api = {
       getUser(username) {
         axios
-        .get(`https://api.github.com/users/${username}`) 
-        // {
-        //     headers: {"Authorization": `token ${process.env.GH_TOKEN}`}
-        // }) 
+        .get(`https://api.github.com/users/${username}`, 
+        {
+            headers: {"Authorization": `token ${process.env.GH_TOKEN}`}
+        }) 
         .then(response => {
           const avatar = response.data.avatar_url
+          const email = response.data.email;
     
           const readMeTwo = `## Contact
-  <img align="left" src="${avatar}" height="100" width="100">`
+  <img align="left" src="${avatar}" height="100" width="100">
+  \n Questions? Comments? Concerns? Reach out at ${email}.`
     
           fs.appendFile("gen-README.md", '\n' + readMeTwo, function(err) {
             if (err) {
@@ -123,8 +125,7 @@ inquirer
               console.log("Success!");
             
         })
-            // console.log(response.data.avatar_url);
-            // console.log(response.data.email);
+  
         })
         .catch(error => console.log(error))
       }

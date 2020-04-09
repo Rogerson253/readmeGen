@@ -14,14 +14,14 @@
 
   <h2 id="installation">Installation</h2>
   To install the necessary packages, run the following code in your terminal:
-  test
+  npm i
 
   <h2 id="usage">Usage</h2>
-  test
+  use it
 
   <h2 id="tests">Tests</h2>
   To run tests, run the following code:
-  test
+  npm run test
 
   <h2 id="contributors">Contributors</h2>
   @rogerson253

@@ -9,6 +9,7 @@
 
 ## Usage
 * To use this application, type `node index` in the terminal, than answer the following questions to generate a new README.
+![](appShowcase.gif)
 
 
 ## Technologies

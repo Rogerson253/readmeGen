@@ -114,7 +114,7 @@ inquirer
           const email = response.data.email;
     
           const readMeTwo = `## Contact
-  <img align="left" src="${avatar}" height="100" width="100">
+  <img src="${avatar}" height="100" width="100">
   \n Questions? Comments? Concerns? Reach out at ${email}.`
     
           fs.appendFile("gen-README.md", '\n' + readMeTwo, function(err) {

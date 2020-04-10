@@ -8,8 +8,13 @@
 `npm install`
 
 ## Usage
-* To use this application, type `node index` in the terminal, than answer the following questions to generate a new README.
-![](assets/appShowcase.gif)
+* To use this application: 
+
+1. Clone this repo
+2. Install packages
+3. Enter `node index` in the terminal, than answer the following questions to generate a new README.
+
+ ![](assets/appShowcase.gif)
 
 
 ## Technologies
